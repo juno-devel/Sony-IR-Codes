@@ -1,0 +1,181 @@
+# IR Remote model : SONY RM-ED054
+
+# Source
+Protocol=Sony Address=0x1 Command=0x25 Raw-Data=0xA5 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x25, <numberOfRepeats>);
+
+# Sync Menu
+Protocol=Sony Address=0x1A Command=0x58 Raw-Data=0xD58 15 bits LSB first
+Send with: IrSender.sendSony(0x1A, 0x58, <numberOfRepeats>);
+
+# ON/OFF
+Protocol=Sony Address=0x1 Command=0x15 Raw-Data=0x95 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x15, <numberOfRepeats>);
+
+# Digital/Analog
+Protocol=Sony Address=0x77 Command=0xD Raw-Data=0x3B8D 15 bits LSB first
+Send with: IrSender.sendSony(0x77, 0xD, <numberOfRepeats>);
+
+# Audio
+Protocol=Sony Address=0x1 Command=0x17 Raw-Data=0x97 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x17, <numberOfRepeats>);
+
+# Image Format
+Protocol=Sony Address=0xA4 Command=0x3D Raw-Data=0x523D 15 bits LSB first
+Send with: IrSender.sendSony(0xA4, 0x3D, <numberOfRepeats>);
+
+# num 1
+Protocol=Sony Address=0x1 Command=0x0 Raw-Data=0x80 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x0, <numberOfRepeats>);
+
+# num 2
+Protocol=Sony Address=0x1 Command=0x1 Raw-Data=0x81 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x1, <numberOfRepeats>);
+
+# num 3
+Protocol=Sony Address=0x1 Command=0x2 Raw-Data=0x82 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x2, <numberOfRepeats>);
+
+# num 4
+Protocol=Sony Address=0x1 Command=0x3 Raw-Data=0x83 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x3, <numberOfRepeats>);
+
+# num 5
+Protocol=Sony Address=0x1 Command=0x4 Raw-Data=0x84 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x4, <numberOfRepeats>);
+
+# num 6
+Protocol=Sony Address=0x1 Command=0x5 Raw-Data=0x85 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x5, <numberOfRepeats>);
+
+# num 7
+Protocol=Sony Address=0x1 Command=0x6 Raw-Data=0x86 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x6, <numberOfRepeats>);
+
+# num 8
+Protocol=Sony Address=0x1 Command=0x7 Raw-Data=0x87 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x7, <numberOfRepeats>);
+
+# num 9
+Protocol=Sony Address=0x1 Command=0x8 Raw-Data=0x88 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x8, <numberOfRepeats>);
+
+# Teletext
+Protocol=Sony Address=0x1 Command=0x3F Raw-Data=0xBF 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x3F, <numberOfRepeats>);
+
+# num 0
+Protocol=Sony Address=0x1 Command=0x9 Raw-Data=0x89 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x9, <numberOfRepeats>);
+
+# ???
+Protocol=Sony Address=0x97 Command=0x28 Raw-Data=0x4BA8 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x28, <numberOfRepeats>);
+
+# Red
+Protocol=Sony Address=0x97 Command=0x25 Raw-Data=0x4BA5 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x25, <numberOfRepeats>);
+
+# Green
+Protocol=Sony Address=0x97 Command=0x26 Raw-Data=0x4BA6 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x26, <numberOfRepeats>);
+
+# Yellow
+Protocol=Sony Address=0x97 Command=0x27 Raw-Data=0x4BA7 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x27, <numberOfRepeats>);
+
+# Blue
+Protocol=Sony Address=0x97 Command=0x24 Raw-Data=0x4BA4 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x24, <numberOfRepeats>);
+
+# Program Guide
+Protocol=Sony Address=0xA4 Command=0x5B Raw-Data=0x525B 15 bits LSB first
+Send with: IrSender.sendSony(0xA4, 0x5B, <numberOfRepeats>);
+
+# Up
+Protocol=Sony Address=0x1 Command=0x74 Raw-Data=0xF4 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x74, <numberOfRepeats>);
+
+# Info
+Protocol=Sony Address=0x1 Command=0x3A Raw-Data=0xBA 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x3A, <numberOfRepeats>);
+
+# Left
+Protocol=Sony Address=0x1 Command=0x34 Raw-Data=0xB4 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x34, <numberOfRepeats>);
+
+# Select
+Protocol=Sony Address=0x1 Command=0x65 Raw-Data=0xE5 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x65, <numberOfRepeats>);
+
+# Right
+Protocol=Sony Address=0x1 Command=0x33 Raw-Data=0xB3 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x33, <numberOfRepeats>);
+
+# Return
+Protocol=Sony Address=0x97 Command=0x23 Raw-Data=0x4BA3 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x23, <numberOfRepeats>);
+
+# Down
+Protocol=Sony Address=0x1 Command=0x75 Raw-Data=0xF5 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x75, <numberOfRepeats>);
+
+# Options
+Protocol=Sony Address=0x97 Command=0x36 Raw-Data=0x4BB6 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x36, <numberOfRepeats>);
+
+# Home
+Protocol=Sony Address=0x1 Command=0x60 Raw-Data=0xE0 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x60, <numberOfRepeats>);
+
+# Volume up
+Protocol=Sony Address=0x1 Command=0x12 Raw-Data=0x92 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x12, <numberOfRepeats>);
+
+# Volume down
+Protocol=Sony Address=0x1 Command=0x13 Raw-Data=0x93 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x13, <numberOfRepeats>);
+
+# Jump/Last
+Protocol=Sony Address=0x1 Command=0x3B Raw-Data=0xBB 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x3B, <numberOfRepeats>);
+
+# Volume Mute
+Protocol=Sony Address=0x1 Command=0x14 Raw-Data=0x94 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x14, <numberOfRepeats>);
+
+# Channel up
+Protocol=Sony Address=0x1 Command=0x10 Raw-Data=0x90 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x10, <numberOfRepeats>);
+
+# Channel down
+Protocol=Sony Address=0x1 Command=0x11 Raw-Data=0x91 12 bits LSB first
+Send with: IrSender.sendSony(0x1, 0x11, <numberOfRepeats>);
+
+# Rewind
+Protocol=Sony Address=0x97 Command=0x1B Raw-Data=0x4B9B 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x1B, <numberOfRepeats>);
+
+# Play
+Protocol=Sony Address=0x97 Command=0x1A Raw-Data=0x4B9A 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x1A, <numberOfRepeats>);
+
+# Forward
+Protocol=Sony Address=0x97 Command=0x1C Raw-Data=0x4B9C 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x1C, <numberOfRepeats>);
+
+# Previous
+Protocol=Sony Address=0x97 Command=0x3C Raw-Data=0x4BBC 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x3C, <numberOfRepeats>);
+
+# Pause
+Protocol=Sony Address=0x97 Command=0x19 Raw-Data=0x4B99 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x19, <numberOfRepeats>);
+
+# Stop
+Protocol=Sony Address=0x97 Command=0x18 Raw-Data=0x4B98 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x18, <numberOfRepeats>);
+
+# Next
+Protocol=Sony Address=0x97 Command=0x3D Raw-Data=0x4BBD 15 bits LSB first
+Send with: IrSender.sendSony(0x97, 0x3D, <numberOfRepeats>);
