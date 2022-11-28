@@ -2,8 +2,8 @@
 
 These IR codes have been recorded from working remote controller for these models :
 
-- TV : RM-ED054
-- Bluray : RMT-VB100I
+- TV : remote controller model => RM-ED054
+- Bluray : remote controller model => RMT-VB100I
 
 I used the Arduino sketch ReceiveDemo from the IRRemote library
 
